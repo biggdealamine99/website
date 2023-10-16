@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+  body {
+    background: linear-gradient(to right, pink, purple);
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .title {
+    font-size: 64px;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-top: 100px;
+  }
+  .subtitle {
+    font-size: 32px;
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-bottom: 50px;
+  }
+  .button {
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: white;
+    color: purple;
+    font-size: 24px;
+    cursor: pointer;
+  }
+</style>
+<script>
+  function showAnswer(answer) {
+    var result = document.getElementById("result");
+    if (answer == "yes") {
+      result.innerHTML = "I can’t express how grateful I am to hear your positive response. I promise you that I will do everything in my power to make our relationship stronger and better than before. I’m looking forward to making amends, growing together, and building a future that is full of love, respect, and mutual understanding. Thank you for giving me another chance. I won’t let you down.";
+      result.style.color = "pink";
+      result.style.fontSize = "48px";
+      result.style.fontWeight = "bold";
+      result.style.animation = "pulse 1s infinite";
+    } else {
+      result.innerHTML = "I understand and respect your decision. I just want you to know that my feelings for you were sincere, and my apology was from the heart. I wish you all the happiness in the world, and I hope that we can at least remain friends. Thank you for considering my feelings.";
+      result.style.color = "gray";
+      result.style.fontSize = "32px";
+      result.style.fontWeight = "normal";
+      result.style.animation = "none";
+    }
+  }
+</script>
+</head>
+<body>
+<div class="container">
+<h1 class="title">HBIBA, will you date me again?</h1>
+<h2 class="subtitle">I hope this message finds you well. I’ve spent a lot of time thinking about us, about our past, and how I acted. I realize now that I made mistakes, and for that, I am truly sorry.
+
+You were always the one who brought light into my life, and since you’ve been gone, it’s been dimmer. You are the love of my life, and not a day goes by that you’re not on my mind.
+
+I want you to know that I’ve changed. I’ve grown and matured in ways that I didn’t think were possible. I’ve learned to appreciate what truly matters in life, and above all, I’ve learned to value the love and kindness of a good person li howa nti
+
+I miss you, and if you’re willing, I would love the chance to show you the person I’ve become. A person who is ready to love, respect, and cherish you the way you deserve.
+
+Please take your time to think about this. Know that my feelings for you are sincere and that my intentions are pure.
+
+amine .</h2>
+<button class="button" onclick="showAnswer('yes')">Yes, of course!</button>
+<button class="button" onclick="showAnswer('no')">No, thank you.</button>
+<p id="result"></p>
+</div>
+</body>
+</html>
